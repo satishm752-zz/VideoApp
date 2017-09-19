@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="#ff9933"
+    android:layout_height="200dp">
+
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:onClick="MainActivity/videoPlay"
+        android:id="@+id/image"/>
+
+    <LinearLayout
+
+        android:layout_width="195dp"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/title"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/duration"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/description"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/link"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
